@@ -1,10 +1,11 @@
 :root {
     --inter-variable: 'Inter-Variable';
     --press-Start-2P: 'Press Start 2P';
-    --wght-text: 400; 
-    --backgrount-gradient:  repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
-                            repeating-linear-gradient(transparent 0 2px, #d3d3d3 2px 4px),
-                            linear-gradient(#e7e7e7, #1a1a1a 0.01%);                      
+    --wght-text: 400;
+    --wght-text-title: 700;
+    --backgrount-gradient: repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+        repeating-linear-gradient(transparent 0 2px, #d3d3d3 2px 4px),
+        linear-gradient(#e7e7e7, #1a1a1a 0.01%);
     --color-white: hwb(0 100% 0%);
     --color-black: hwb(0 0% 100%);
     --color-contour: #000;
