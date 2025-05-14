@@ -1,6 +1,6 @@
 :root {
-    --inter-variable: 'Inter-Variable';
-    --press-Start-2P: 'Press Start 2P';
+    --fonts-variables: 'Inter-Variable';
+    --fonts-decoration: 'Press Start 2P';
     --wght-text: 400;
     --wght-text-title: 700;
     --backgrount-gradient: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
