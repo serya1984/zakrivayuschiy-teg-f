@@ -50,7 +50,7 @@
   font-size: var(--font-size-logo);
   line-height: 100%;
   text-transform: uppercase;
-  padding-block-end: 3vh;
+  padding-block-end: 2.3vh;
 }
 
 .header__text {
@@ -64,9 +64,9 @@
   max-inline-size: 696px;
   display: flex;
   flex-direction: column;
-  gap: 49px;
+  gap: 51px;
   justify-content: center;
-  margin-block-start: 15vh;
+  margin-block-start: 11.8vh;
 }
 
 .card {
@@ -79,7 +79,7 @@
   background-color: var(--color-background);
   font-variation-settings: wght var(--wght-text-title);
   padding-block-start: 4px;
-  padding-block-end: 7px;
+  padding-block-end: 5px;
   padding-inline: 9px;
 }
 
@@ -227,7 +227,7 @@
 
 .core {
   fill: transparent;
-  transition: fill 0.3s 0.05s;
+  transition: fill 0.3s 0.03s;
 }
 
 .contour {
@@ -237,7 +237,7 @@
 
 .card__icon-button:hover .main-body {
   fill: var(--color-contour);
-  transition: fill 0.3s 0.03s;
+  transition: fill 0.3s 0.05s;
 }
 
 .card__icon-button:hover .core {
@@ -252,12 +252,12 @@
 
 .card__icon-button:active .main-body {
   fill: var(--color-sparks);
-  transition: fill 0.3s 0.03s;
+  transition: fill 0.3s 0.05s;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--color-sparks);
-  transition: fill 0.3s 0.01s;
+  transition: fill 0.1s;
 }
 
 .like-icon.is-liked .core {
@@ -267,7 +267,7 @@
 
 .like-icon.is-liked .main-body {
   fill: var(--color-sparks);
-  transition: fill 0.3s 0.03s;
+  transition: fill 0.3s 0.05s;
 }
 
 .card__icon-button:focus {
@@ -318,23 +318,21 @@ button:focus {
   border: 2px solid var(--color-text);
   font-family: var(--fonts-decoration), fantasy;
   line-height: 150%;
-  inline-size: 353px;
-  margin-block-end: 35vh;
+  inline-size: 357px;
 }
 
 .modal__block[open] {
   display: grid;
   grid-template-columns: min-content 1fr;
   align-items: center;
-  gap: 20px;
-  padding-block: 32px;
-  padding-inline: 27px;
-  margin-block-end: 39vh;
+  padding-block: 30px;
+  padding-inline: 30px;
 }
 
 .disk__image-footer {
   inline-size: 39px;
   block-size: 39px;
+  margin-block-end: 34px;
 }
 
 .modal__block::backdrop {
@@ -354,6 +352,8 @@ button:focus {
 
 .button__text-modal {
   text-transform: uppercase;
+  padding-block-end: 30px;
+  padding-inline-start: 18px;
 }
 
 .disk__image {
@@ -414,10 +414,8 @@ button:focus {
   }
 
   .modal__block[open] {
-    margin-block-end: 35vh;
     padding-block: 30px;
-    padding-inline: 38px;
-    gap: 25px;
+    padding-inline: 40px;
   }
 
   .section__button {
@@ -430,11 +428,14 @@ button:focus {
   }
 
   .modal__block {
-    margin-block-end: 40vh;
     inline-size: 341px;
   }
 
+  .disk__image-footer {
+    margin-block-end: 25px;
+  }
+
   .modal__close {
-    padding-block: 1.6vh;
+    padding-block: 10px;
   }
 }
