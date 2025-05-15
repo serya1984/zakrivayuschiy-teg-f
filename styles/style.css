@@ -345,7 +345,7 @@ button:focus {
   background-color: transparent;
   grid-column: 1 / 3;
   align-self: flex-start;
-  padding-block: 1vh;
+  padding-block: 10px;
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -415,7 +415,7 @@ button:focus {
 
   .modal__block[open] {
     padding-block: 30px;
-    padding-inline: 40px;
+    padding-inline: 38px;
   }
 
   .section__button {
